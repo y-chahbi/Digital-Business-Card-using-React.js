@@ -1,0 +1,164 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #1C1C1C;
+}
+
+#root {
+    background-color: #23252C;
+    /* position: absolute; */
+    width: 66%;
+    /* top: 20%; */
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    padding-top: 40px;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* height: 100%; */
+    /* box-sizing: border-box;  */
+    /* right: calc((100% - 66%) / 2); */
+}
+
+.container {
+    /* background-color: #1A1B21; */
+    width: 70%;
+    position: relative;
+    margin-left: calc((100% - 70%) / 2);
+    border-radius: 13px;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.profile {
+    height: 573px;
+    overflow: hidden;
+}
+
+.img-profile {
+    width: 150%;
+    position: relative;
+    right: 173px;
+    top: -68px;
+    height: 1200px;
+}
+
+.About ,
+.Interests,
+.Info {
+    background-color: #1A1B21;
+}
+.Info h1 {
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.job {
+    color: #F3BF99;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: -15px; 
+    display: block;
+    text-align: center;
+}
+
+.website {
+   color: #F5F5F5;
+   display: block;
+   font-family: "Inter", sans-serif;
+   font-weight: 100;
+   text-align: center;
+   margin-top: 10px;
+   text-decoration: none;
+}
+
+button {
+    margin-top: 15px;
+    margin-left: 13%;
+    width: 30%;
+    height: 40px;
+    border-radius: 6px;
+    border: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 23px;
+}
+
+.Email {
+    color : #374151;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.LinkedIn {
+    color : #FFFFFF;
+    background-color: #5093E2;
+    position: relative;
+}
+
+.LinkedIn::before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 7px;
+    left: 5%;
+    background-image: url('icons/linkedin001.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Email::before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 7px;
+    left: 11%;
+    background-image: url('icons/email001.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.About ,
+.Interests{
+    color: white;
+    padding-top: 15px;
+    padding: 10px 13%;
+    font-family: "Inter", sans-serif;
+}
+
+.About p ,
+.Interests p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.About h1 ,
+.Interests h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.Footer {
+    background-color : #161619;
+    text-align: center;
+    border-radius: 0 0 13px 13px;
+}
+
+.Soc {
+    padding: 50px 30px;
+}
+
+.Soc a {
+    text-decoration: none;
+}
+
+.Soc a img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
